@@ -2,6 +2,8 @@
 
 Control de Micrófono es una aplicación de escritorio desarrollada en Python que permite a los usuarios controlar fácilmente el volumen y el estado de silencio de sus micrófonos en Windows. La aplicación utiliza una arquitectura hexagonal y ofrece una interfaz gráfica intuitiva.
 
+![alt text](assets/image.png)
+
 ## Características
 
 - Control de volumen del micrófono con atajos de teclado personalizables
