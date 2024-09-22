@@ -1,9 +1,9 @@
-# Control de Micrófono para Windows
+# Control de Micrófono
 
 Control de Micrófono es una aplicación de escritorio desarrollada en Python que permite a los usuarios controlar fácilmente el volumen y el estado de silencio de sus micrófonos en Windows. La aplicación utiliza una arquitectura hexagonal y ofrece una interfaz gráfica intuitiva.
 
 ![alt text](assets/image_win.png)
-![alt text](image_linux.png)
+![alt text](assets/image_linux.png)
 
 # Control de Micrófono
 
@@ -31,18 +31,11 @@ Control de Micrófono es una aplicación multiplataforma desarrollada en Python 
 1. Clona este repositorio o descarga el código fuente:
 
    ```
-   git clone https://github.com/tu-usuario/control-de-microfono.git
-   cd control-de-microfono
+   git clone https://github.com/glamura/Microphone-Control.git
+   cd Microphone-Control
    ```
 
-2. Crea un entorno virtual (opcional pero recomendado):
-
-   ```
-   python -m venv venv
-   source venv/bin/activate  # En Windows usa: venv\Scripts\activate
-   ```
-
-3. Instala las dependencias necesarias:
+2. Instala las dependencias necesarias:
    ```
    pip install -r requirements.txt
    ```
@@ -119,10 +112,13 @@ El proyecto sigue una arquitectura hexagonal (puertos y adaptadores):
 ### Entorno de desarrollo
 
 1. Clona el repositorio
-2. Crea y activa un entorno virtual
-3. Instala las dependencias de desarrollo:
+2. Instala las dependencias de desarrollo:
    ```
    pip install -r requirements.txt
+   ```
+3. Ejecuta la aplicación en modo de desarrollo:
+   ```
+    python main.py
    ```
 
 ## Licencia
@@ -131,4 +127,4 @@ Distribuido bajo la Licencia MIT. Ver `LICENSE` para más información.
 
 ## Contacto
 
-Link del Proyecto: [https://github.com/tu-usuario/control-de-microfono](https://github.com/tu-usuario/control-de-microfono)
+Link del Proyecto: [https://github.com/glamura/Microphone-Control](https://github.com/glamura/Microphone-Control)
