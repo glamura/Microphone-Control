@@ -352,5 +352,4 @@ class MicrophoneControlGUI(QMainWindow):
         )
 
     def quit_application(self):
-        self.tray_icon.hide()
         QApplication.instance().quit()

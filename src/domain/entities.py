@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from typing import Any
+from typing import Any, Optional
 
 
 @dataclass
@@ -7,7 +7,7 @@ class AudioDevice:
     id: str
     name: str
     is_input: bool
-    pycaw_device: Any
+    pycaw_device: Optional[Any] = None
 
 
 @dataclass

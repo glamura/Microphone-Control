@@ -25,7 +25,7 @@ class PycawAudioAdapter(AudioInterfacePort):
                 id=str(dev.id),
                 name=dev.FriendlyName,
                 is_input=self._is_input_device(dev),
-                pycaw_device=dev,  # Almacenamos el dispositivo pycaw original
+                pycaw_device=dev,
             )
             for dev in devices
         ]
