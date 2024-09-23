@@ -1,13 +1,9 @@
 # Control de Micrófono
 
-Control de Micrófono es una aplicación de escritorio desarrollada en Python que permite a los usuarios controlar fácilmente el volumen y el estado de silencio de sus micrófonos en Windows. La aplicación utiliza una arquitectura hexagonal y ofrece una interfaz gráfica intuitiva.
+Control de Micrófono es una aplicación multiplataforma desarrollada en Python que permite a los usuarios controlar fácilmente el volumen y el estado de silencio de sus micrófonos. La aplicación ofrece una interfaz gráfica para Windows y una interfaz de línea de comandos para sistemas basados en Unix (Linux, macOS).
 
 ![alt text](assets/image_win.png)
 ![alt text](assets/image_linux.png)
-
-# Control de Micrófono
-
-Control de Micrófono es una aplicación multiplataforma desarrollada en Python que permite a los usuarios controlar fácilmente el volumen y el estado de silencio de sus micrófonos. La aplicación ofrece una interfaz gráfica para Windows y una interfaz de línea de comandos para sistemas basados en Unix (Linux, macOS).
 
 ## Características
 
@@ -128,3 +124,5 @@ Distribuido bajo la Licencia MIT. Ver `LICENSE` para más información.
 ## Contacto
 
 Link del Proyecto: [https://github.com/glamura/Microphone-Control](https://github.com/glamura/Microphone-Control)
+
+![alt text](assets/logo.ico)
